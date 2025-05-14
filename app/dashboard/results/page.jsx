@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useUser } from "@clerk/nextjs";
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, Download, Share2, Award, CheckCircle, ThumbsUp, ThumbsDown } from 'lucide-react';
@@ -19,7 +19,7 @@ const parseTableRow = (row) => {
   return [];
 };
 
-export default function ResultsPage() {
+function ResultContent(){
   const { user } = useUser();
   const searchParams = useSearchParams();
   const comparisonId = searchParams.get("id");
@@ -598,5 +598,17 @@ export default function ResultsPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function ResultsPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+      </div>
+    }>
+      <ResultContent />
+    </Suspense>
   );
 }

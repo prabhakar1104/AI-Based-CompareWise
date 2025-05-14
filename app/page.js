@@ -533,10 +533,10 @@ export default function HomePage() {
                   <span className="sr-only">GitHub</span>
                   <Github className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-gray-300">
+                {/* <a href="#" className="text-gray-400 hover:text-gray-300">
                   <span className="sr-only">LinkedIn</span>
                   <Linkedin className="h-6 w-6" />
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
@@ -587,7 +587,7 @@ export default function HomePage() {
                   <ul className="mt-4 space-y-4">
                     <li>
                       <a
-                        href="#"
+                        href="/footer/help"
                         className="text-base text-gray-300 hover:text-white"
                       >
                         Help Center
