@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+## Create .env file where you add the api keys such as 
+1. Clerk api key & clerk secret key
+2. Gemini_api_key
+3. Postgray database url
+
 First, run the development server:
 
 ```bash
