@@ -41,16 +41,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-![Screenshot (678)](https://github.com/user-attachments/assets/05882520-96c0-41f0-9bef-a36a1efd0341)
-
-![Screenshot (682)](https://github.com/user-attachments/assets/0bd5c65e-d263-4a22-b1e0-1249c07c679b)
-![Screenshot (684)](https://github.com/user-attachments/assets/22b130fd-dee1-4863-8731-50bfe3c2e9ba)
-
-![Screenshot (685)](https://github.com/user-attachments/assets/90eaad20-94d3-4a5e-bcff-8cb969117d0b)
+![Screenshot (678)](https://github.com/user-attachments/assets/9416af52-6100-49d7-9bd6-433146e10398)
 
 
+![Screenshot (682)](https://github.com/user-attachments/assets/46b773e9-347b-4b16-b4c3-ea3c4ee0ac60)
 
-![Screenshot (686)](https://github.com/user-attachments/assets/68f818ce-26ee-4a28-8269-ef2d756f2c94)
+
+![Screenshot (684)](https://github.com/user-attachments/assets/a634700c-1c44-4ed9-892b-4665432d5e66)
+
+
+![Screenshot (685)](https://github.com/user-attachments/assets/7b9eb337-f9c0-4b80-b7bb-3d69b2cc04bd)
+
+
+![Screenshot (686)](https://github.com/user-attachments/assets/2e44fb35-7a8d-471f-a8fa-3295461b1211)
 
 
 
